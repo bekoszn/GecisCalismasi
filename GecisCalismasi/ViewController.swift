@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func geriButonu(_ sender: Any) {
+        performSegue(withIdentifier: "ViewController", sender: nil)
+    }
+    
 }
 
